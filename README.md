@@ -1,4 +1,4 @@
-# chi
+# Chi
 
 `chi` is a small CLI utility similar to `tee`, but designed to handle
 "slightly messy things" that `tee` does not.
@@ -25,8 +25,7 @@ Terminal output stays colored, while plan.txt is saved as plain text.
 
 ## Usage
 
-```
-Usage: chi [OPTIONS] [[FILE_OPTS]... FILE]...
+Usage: chi \[OPTIONS] \[\[FILE_OPTS]... FILE]...
 
 OPTIONS:
   -i, --ignore-interrupts   ignore interrupt signals
@@ -39,7 +38,6 @@ FILE_OPTS (apply to the next FILE only):
   -c, --care                strip ANSI escapes (plain text)
 
 Copy standard input to each FILE, and also to standard output.
-```
 
 ## Build
 
@@ -64,5 +62,6 @@ go install ./cmd/chi
 After that, just use it as you see fit.
 
 ## License
-- MIT License.
+
+Copyright (c) 2025-present Aki. Kuramoto. Chi is free and open-source software licensed under the MIT License.
 
